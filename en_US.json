@@ -1,0 +1,16 @@
+{
+  "action:feedback": {
+    "responses": [
+      "i want to send feedback",
+      "i wanna give feedback",
+      "feedback",
+      "i want to give feedback on a response"
+    ],
+    "prompts": {
+      "response": ["What did you think of the response? (Answer **good** or **bad**)"],
+      "wanted": ["What did you want in the response?"],
+      "request_msg": ["What is the message ID of the request? (your message that was used in the response) (Use **Developer Mode** to find the message ID, The message must be in this channel)"],
+      "response_msg": ["What is the message ID of the response? (Use **Developer Mode** to find the message ID, The message must be in this channel)"]
+    }
+  }
+}
