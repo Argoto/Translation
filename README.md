@@ -1,4 +1,4 @@
-\# [Argoto Dialogflow Translation](https://weblate.snazzah-is.cool/projects/argoto/dialogflow/) ![StatusWidget](http://weblate.snazzah-is.cool/widgets/argoto/-/svg-badge.svg)
+# [Argoto Dialogflow Translation](https://weblate.snazzah-is.cool/projects/argoto/dialogflow/) ![StatusWidget](http://weblate.snazzah-is.cool/widgets/argoto/-/svg-badge.svg)  
 Translations for Argoto's Dialogflow training phrases
 
 ![Chart](http://weblate.snazzah-is.cool/widgets/argoto/-/multi-auto.svg)
