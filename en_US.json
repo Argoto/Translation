@@ -1,16 +1,1499 @@
 {
-  "action:feedback": {
+  "action:ban": {
+    "userSays": [
+      "please remove {username:meew0} from existence",
+      "ban {user:{discord-user: 1580 4932 9150 4271 36 }}  and delete messages from {message_days:2} days ago",
+      "ban {user:{discord-user: 3637 7375 9095 7015 07 }} for {reason:retardation}",
+      "ban {username:dj} for {reason:spamming in chat} and delete messages {message_days:3} days old",
+      "ban {username:EsseCara} for \"{reason:spamming}\"",
+      "argoto, ban {username:triping} for \"{reason:memes}\" and delete messages {message_days:9} days old",
+      "ban {user:{discord-user: 1286 9429 5170 5149 44 }} for {reason:bad behavior}",
+      "ban {username:Aceheliflyer} for {reason:spamming} and delete messages from {message_days:2} days ago",
+      "ban \"{username:person}\" for {reason:spamming}",
+      "ban {user:{discord-user: 2303 3060 4086 8864 00 }} for \"{reason:unicode name}\" and delete messages for {message_days:5} days",
+      "ban {username:funkypig} for {reason:spamming}",
+      "ban {username:sed} and delete messages for {message_days:9} days",
+      "argoto, ban {username:meew} and delete messages {message_days:9} days old",
+      "ban {user:{discord-user: 2116 4973 2890 7223 04 }}",
+      "get {username:crimbus} out of this server forever",
+      "get {user:{discord-user: 3637 7375 9095 7015 07 }} out of this server forever for {reason:saying forbidden words}",
+      "ban {username:AdnanKerimoğlu} and delete any message from {message_days:4} days ago",
+      "ban {username:duke}"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "action:eval:yes": {
+    "userSays": [
+      "gimme your token",
+      "of course",
+      "ok",
+      "give token",
+      "i want your token",
+      "that's correct",
+      "sure",
+      "exactly",
+      "yes"
+    ],
+    "prompts": {},
     "responses": [
+      "Too bad. No token for you."
+    ]
+  },
+  "action:feedback": {
+    "userSays": [
       "i want to send feedback",
       "i wanna give feedback",
       "feedback",
       "i want to give feedback on a response"
     ],
     "prompts": {
-      "response": ["What did you think of the response? (Answer **good** or **bad**)"],
-      "wanted": ["What did you want in the response?"],
-      "request_msg": ["What is the message ID of the request? (your message that was used in the response) (Use **Developer Mode** to find the message ID, The message must be in this channel)"],
-      "response_msg": ["What is the message ID of the response? (Use **Developer Mode** to find the message ID, The message must be in this channel)"]
-    }
+      "response": [
+        "What did you think of the response? (Answer **good** or **bad**)"
+      ],
+      "wanted": [
+        "What did you want in the response?"
+      ],
+      "request_msg": [
+        "What is the message ID of the request? (your message that was used in the response) (Use **Developer Mode** to find the message ID, The message must be in this channel)"
+      ],
+      "response_msg": [
+        "What is the message ID of the response? (Use **Developer Mode** to find the message ID, The message must be in this channel)"
+      ]
+    },
+    "responses": []
+  },
+  "action:kick": {
+    "userSays": [
+      "escort {username:Amoo} out of this guild for \"{reason:impersonation}\"",
+      "escort {user:{discord-user: 8647 7779 7170 6675 2 }} out of this server for {reason:not following rules}",
+      "kick {user:{discord-user: 1064 4423 8538 9649 92 }} for \"{reason:annoying}\"",
+      "escort {username:Benpai} out of this guild",
+      "kick {username:dixie} for {reason:racism}",
+      "get {user:{discord-user: 9743 7477 7231 9334 4 }} out of this guild for {reason:cheating}",
+      "kick {username:Almighty Alpaca}",
+      "kick {username:liam} for \"{reason:earrape}\"",
+      "escort {user:{discord-user: 1173 6319 8205 6243 22 }} out of this server",
+      "get {username:Oxylibrium} out of this server",
+      "kick \"{username:ceci n'est pas une fantôme}\" for {reason:spamming}"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "action:remind:add": {
+    "userSays": [
+      "set a reminder in the next {time:2 minutes} to {content:test}",
+      "I need you to remind me something",
+      "can you remind me",
+      "add new reminder",
+      "new reminder please",
+      "can you set a reminder for me",
+      "please remind me to {content:call}",
+      "can you do a reminder for me",
+      "set a reminder for {time:8 am}",
+      "remind about {content:party} at {time:12 pm on Friday}",
+      "remind me to {content:go to bed} {time:in 5 minutes}",
+      "can you remind me to {content:call}",
+      "remind me to {content:turn the lights on} at {time:8 pm}",
+      "remind me later",
+      "remind me to {content:study} {time:tomorrow}",
+      "remind me to {content:wake up} at {time:6 am}",
+      "set a reminder {time:for 1 hour}",
+      "remind me",
+      "I would like to set up a reminder",
+      "remind me {time:tomorrow}",
+      "can you remind",
+      "I need you to set a reminder for me",
+      "remind me I have a {content:meeting}",
+      "remind me {time:from monday till wednesday}",
+      "remind me to {content:take medicine}",
+      "remind me {time:Friday}",
+      "remind me {time:tomorrow} to {content:call}",
+      "set new reminder",
+      "I want you to remind me something",
+      "please make a reminder",
+      "make another reminder",
+      "set reminder for {time:tomorrow morning}",
+      "I need to add a reminder",
+      "remind me about {content:dinner} {time:in 1hour}",
+      "remind me to",
+      "remind me about {content:walking the dog} in {time:10 minutes}",
+      "please set reminder",
+      "remind me to {content:check my computer}",
+      "remind about {content:running} in the {time:next hour}",
+      "add a new reminder",
+      "remind me on",
+      "set reminder for {time:7 am tomorrow} {content:yoga}",
+      "remind me {content:nutrition research} {time:tomorrow at 8am}",
+      "remind me {time:tomorrow at 9 am}",
+      "schedule reminders",
+      "can you remind me to",
+      "schedule reminder",
+      "remind me {time:today}",
+      "setup a reminder",
+      "set a reminder for the {time:next hour} to {content:walk the dog}",
+      "set my reminders",
+      "set reminder set reminder",
+      "can you set reminder",
+      "I would like to set a reminder",
+      "set the reminder",
+      "could you remind me",
+      "can you add a reminder",
+      "remind me to {content:go to sleep}",
+      "I need to set another reminder",
+      "remind me at",
+      "remind me to {content:wash the car} {time:in 4 hours}",
+      "can I make a reminder",
+      "remind me to {content:pay my credit card bill}",
+      "I need a reminder {time:tomorrow}",
+      "reminder for {time:4.15 pm today} {content:visit grandma} please",
+      "reminder {time:for today}",
+      "remind me {time:on weekend}",
+      "remind me to {content:visit my family} on {time:Thanksgiving day}",
+      "can you make me a reminder",
+      "remind me to {content:pick up Joe} {time:in 30 minutes}",
+      "okay remind me",
+      "I need a reminder",
+      "remind me to {content:see the table} {time:in 5 minutes}",
+      "remind me about {content:dinner} {time:in 1m}",
+      "remind me to {content:buy shoes in Paris}",
+      "I need to schedule a reminder",
+      "remind me to {content:call mom} on {time:Christmas}",
+      "remind me to {content:wear green on st. patrick’s day}",
+      "remind me on the {time:27th of August} {content:Tomy flight}",
+      "remind me that I have a {content:doctor's appointment}",
+      "make me a reminder",
+      "don't let me forget to {content:pick up milk} {time:today}",
+      "remind me to {content:vitamin D} at {time:7 pm} every day",
+      "reminder for me",
+      "set up reminder",
+      "remind me at {time:7pm on November 11} to {content:do homework}",
+      "remind me on weekdays",
+      "remind me to {content:go running} at {time:6 AM}",
+      "remind me about something",
+      "can you make a reminder",
+      "I'd like to set a reminder",
+      "remind me to {content:go to work} the {time:19th of August}",
+      "remind me to {content:buy bread} {time:at 11 am tomorrow}",
+      "remind me to {content:drink some water} {time:in 5 minutes}",
+      "create reminder",
+      "remind me to {content:wash my car}",
+      "remind me about the {content:teacher meeting} on {time:Friday}",
+      "can you set reminders",
+      "reminder for {time:today}",
+      "remind about {content:holidays one day before}",
+      "remind me of {content:appointment}",
+      "can you set up a reminder for me",
+      "need to set a reminder",
+      "remind me to {content:watch}",
+      "add reminder with title {content:washing car}",
+      "remind me about {content:dinner} at {time:15.23}",
+      "schedule a reminder",
+      "I would like to add a reminder",
+      "remind me to {content:wake up} {time:tomorrow}",
+      "new reminder about {content:fitness}",
+      "remind me of my {content:appointment}",
+      "Send me a reminder to {content:pay the cable bill} on {time:March 3}",
+      "help me remind me to {content:call Bae} {time:tomorrow at 9}",
+      "can you remind me something {time:tomorrow}",
+      "set up a reminder",
+      "remind me to {content:go to the doctor}",
+      "set reminder about {content:washing car}",
+      "can you remind me of an {content:appointment}",
+      "set reminder for {time:tomorrow}",
+      "remind me about the {content:parent/teacher meeting} on {time:Friday}",
+      "can I add a reminder",
+      "will you set a reminder for me",
+      "make reminder",
+      "remind me {time:10:30 pm} to {content:close the restaurant}",
+      "remind me {time:in 15 minutes} to {content:go to the bar}",
+      "remind me of a {content:meeting} on the {time:27th of August}",
+      "add reminder for me",
+      "set reminder",
+      "add another reminder",
+      "remind me to {content:wash the car}",
+      "remind me at {time:12 o'clock}",
+      "make a reminder for me",
+      "remind me to {content:work out}",
+      "remind me {time:on Thursday}",
+      "create a reminder for me",
+      "set reminder for {time:25th November}",
+      "remind me at {time:1 p.m.} that {content:I have to eat}",
+      "set reminder for {time:7 am tomorrow} about {content:dinner} please",
+      "remind me {time:the day before}",
+      "can you set reminders for me",
+      "remind me to {content:feed my cat} please",
+      "set reminder {time:for 5 minutes}",
+      "make a new reminder",
+      "one more reminder",
+      "remind {content:flight} at {time:6 am}",
+      "reminder",
+      "remind me to {content:book a parking spot for my Carnival Cruise}",
+      "remind me to {content:exercise} {time:tonight}",
+      "ok remind me",
+      "remind me once about {content:running}",
+      "do not let me forget to {content:water flowers} at {time:7 am tomorrow}",
+      "add a reminder for {time:tomorrow}",
+      "remind me to {content:call Jose} {time:tomorrow}",
+      "can you put a reminder",
+      "set a reminder {time:for Thursday}",
+      "remind me at {time:11 o'clock in the morning}",
+      "I need a reminder for {time:today}",
+      "remind me {time:tomorrow} to",
+      "remind me about {content:dinner} at {time:15pm}",
+      "set a reminder for me please",
+      "remind me to {content:do homework} on {time:November 11 at 7pm}",
+      "remind me at {time:noon}",
+      "remind about {content:running} at {time:6 am on 7 december}",
+      "set a reminder for",
+      "don't forget to remind me",
+      "set reminder {content:buy milk} on {time:November 11 at 5 pm}",
+      "can you set up a reminder",
+      "add reminder {content:feed a cat} {time:in 3 min}",
+      "please remind me to",
+      "remind me to {content:call someone} everyday at {time:4 p.m.}",
+      "I want to add a reminder",
+      "set up reminders",
+      "set a reminder please",
+      "remind me at {time:2:35 p.m. tomorrow} to {content:not park in the back parking lot}",
+      "I would like a reminder",
+      "remind me to {content:wake up} at {time:7 am}",
+      "I want to make a reminder",
+      "add reminder",
+      "make a reminder",
+      "can you remind me later",
+      "remind me to {content:buy milk} on {time:Tuesday at 8 pm}",
+      "new reminder about {content:washing car}",
+      "remind me of {content:blood brothers}",
+      "I need you to remind me",
+      "add a reminder",
+      "add reminder for {content:meeting}",
+      "reminder {time:for this evening}",
+      "put a reminder",
+      "remind me I have a {content:doctor's appointment}",
+      "new reminder",
+      "can you remind me of something {time:tomorrow}",
+      "remind me of my {content:doctors appointment}",
+      "set reminder for every day",
+      "can you set me a reminder",
+      "can I set a reminder",
+      "set reminder for me",
+      "setup reminder",
+      "remind me for {time:tomorrow}",
+      "set reminder for {content:dinner with Tom} please",
+      "remind me to {content:call dad}",
+      "yes please remind me",
+      "I need a reminder set",
+      "remind",
+      "remind me to {content:deliver to Saint Barbara Catholic Church} on {time:Friday 9 to 9:30}",
+      "remind me to {content:call my brother} on {time:Veterans day}",
+      "reminder set",
+      "I want a reminder",
+      "remind me to {content:brush my teeth}",
+      "remind me about {content:dinner} {time:in 1minute}",
+      "can you set a reminder for me {time:tomorrow}",
+      "send me a reminder to {content:leave for work} {time:in 10 minutes}",
+      "set reminder {time:for 2 pm}",
+      "send me a reminder",
+      "can you remind me to {content:read my book wash dishes and sweep the floor}",
+      "remind me to {content:buy movie tickets} for {time:Friday evening}",
+      "I need to set up a reminder",
+      "remind us",
+      "set reminder to {time:5 pm}",
+      "please add reminder",
+      "set a new reminder",
+      "add to reminder",
+      "can you please remind me"
+    ],
+    "prompts": {
+      "content": [
+        "How should I name this reminder?",
+        "Tell me the name for this reminder."
+      ],
+      "time": [
+        "When should I remind you?"
+      ]
+    },
+    "responses": [
+      "Scheduled!"
+    ]
+  },
+  "command:8ball": {
+    "userSays": [
+      "eight ball",
+      "8ball",
+      "what does the eight ball say",
+      "gimme an eight ball",
+      "give me an eight ball",
+      "give me an 8 ball",
+      "gimme an 8 ball"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "command:api:definition": {
+    "userSays": [
+      "what does {word:master} mean",
+      "define {word:monster}",
+      "whats the definition of {word:daring}"
+    ],
+    "prompts": {
+      "word": [
+        "What word do you want to define?"
+      ]
+    },
+    "responses": []
+  },
+  "command:api:image-search": {
+    "userSays": [
+      "show me the {query:eiffel tower}",
+      "i want a picture of a {query:snake}",
+      "show me a picture",
+      "image search {query:cute cats}",
+      "gimme a picture of a {query:poodle}",
+      "give me an image of a {query:happy dog}",
+      "send me a picture"
+    ],
+    "prompts": {
+      "query": [
+        "What image do you want me to search?"
+      ]
+    },
+    "responses": []
+  },
+  "command:api:search": {
+    "userSays": [
+      "Google {query:who is the president of the United States}",
+      "look up {query:Monty Python}",
+      "find {query:Pink's biography} on {service:Wikipedia}",
+      "search for {query:popular wallpapers} on Yahoo",
+      "find {query:funny cats}",
+      "find {query:Metropolitan Museum} on {service:Wikipedia}",
+      "find {query:Newton laws} in the web",
+      "find information about {query:Madonna}",
+      "find {query:apple pie recipes}",
+      "search {query:how to build a house}",
+      "can you find information",
+      "web search",
+      "search",
+      "google {query:David Bowie}",
+      "google a {query:recipe for tomato soup}",
+      "find {query:Lady Gaga's husband} on the Internet",
+      "search up {query:how to make a discord bot}",
+      "google {query:mixtables}",
+      "search {query:argoto}"
+    ],
+    "prompts": {
+      "query": [
+        "What do you want to search up?"
+      ]
+    },
+    "responses": []
+  },
+  "command:api:time": {
+    "userSays": [
+      "what's the time for {location:Japan}",
+      "what time it is in {location:texas}",
+      "what timezone does {location:New York} have",
+      "{location:Dallas} timezone",
+      "whats the time in {location:Seattle}",
+      "time in {location:Croatia}",
+      "what time is it"
+    ],
+    "prompts": {
+      "location": [
+        "What location do you want the time for?"
+      ]
+    },
+    "responses": []
+  },
+  "command:api:weather": {
+    "userSays": [
+      "what's the weather for {location:Texas}",
+      "forecast in {location:Tokyo}",
+      "weather in {location:London}",
+      "what is the weather for {location:Kernersville}",
+      "current forecast in {location:Valencia}",
+      "what is the weather in {location:Cape Town}",
+      "show me the weather in {location:San Francisco}",
+      "weather {location:Montana}",
+      "weather {location:Seattle}",
+      "find weather {location:India}",
+      "weather in {location:New York}",
+      "what's the weather like in {location:Delft}",
+      "what's the weather like in {location:New York}",
+      "weather in {location:Nirmal}",
+      "tell me what's the weather like in {location:Atlanta}",
+      "weather forecast in {location:Denver}",
+      "weather in {location:Khanapur}",
+      "the weather in {location:Miami} is what",
+      "what is the current weather in {location:Pune}",
+      "weather {location:Durban}",
+      "weather in {location:Mamda}",
+      "{location:India} weather report",
+      "what is the current weather at {location:SVO}",
+      "could you give me the weather forecast for {location:Hong Kong} please",
+      "how's the weather in {location:Rome}",
+      "weather of {location:Salalah}",
+      "what is the weather for {location:Greenville}",
+      "show me the weather in {location:Munich}",
+      "weather forecast in {location:Oakland}",
+      "show me the weather in {location:Milan}",
+      "what's the weather supposed to be in {location:Moscow}",
+      "weather today in {location:New York}",
+      "what's the weather in {location:New York}",
+      "what's the weather like at {location:New York}",
+      "weather report for {location:Paris}",
+      "weather in {location:Valencia} for today",
+      "now tell me the weather forecast in {location:Aspen}",
+      "what's the weather forecast in {location:San Francisco}",
+      "I'd like to know the weather in {location:Madrid}"
+    ],
+    "prompts": {
+      "location": [
+        "What location do you want the weather for?"
+      ]
+    },
+    "responses": []
+  },
+  "command:coinflip": {
+    "userSays": [
+      "flip coin",
+      "coinflip",
+      "gimme a coin",
+      "give me a coin",
+      "heads or tails",
+      "flip a coin"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "command:convert:area": {
+    "userSays": [
+      "{amount:679} {unit_from:sqft} in {unit_to:sq m}",
+      "{unit_from:acres} to {unit_to:hectares}",
+      "what is {amount:25} {unit_from:square metres} in {unit_to:acres}",
+      "what's the {unit_to:square feet} of {amount:500} {unit_from:acres}",
+      "{unit_from:square meters} to {unit_to:square megameters}",
+      "{unit_from:square miles} into {unit_to:barns}",
+      "how many {unit_to:square feet} are there in an {unit_from:acre}",
+      "convert {amount:600} {unit_from:acres} into {unit_to:square feet}"
+    ],
+    "prompts": {
+      "unit_to": [
+        "What's the **area** of measurement you are trying to convert to?"
+      ],
+      "unit_from": [
+        "What's the **area** of measurement you are trying to convert from?"
+      ]
+    },
+    "responses": []
+  },
+  "command:convert:currency": {
+    "userSays": [
+      "currency conversion from {unit_from:Yens} to {unit_to:New Taiwan Dollars}",
+      "convert {amount:100} {unit_from:Pounds} to {unit_to:Dollars}",
+      "the price for {unit_from:Mexican Peso}",
+      "{unit_from:British Pound} currency rate",
+      "what's the exchange rate for {unit_from:Canadian} to {unit_to:US Dollars}",
+      "convert {unit_from:Jamaican Dollars} into {unit_to:Euros}",
+      "how much is {amount:30} {unit_from:English Pounds} in {unit_to:Ethiopian Birrs}",
+      "how many {unit_to:US Dollars} will {amount:300} {unit_from:Euro} get me",
+      "how much will I get for {amount:1000} {unit_from:Euro}",
+      "what's {amount:100} {unit_from:Levas} in {unit_to:Cunas}",
+      "convert {amount:3} {unit_from:dinars} in {unit_to:dollars}",
+      "convert {amount:3} {unit_from:Rubles} in {unit_to:Dollars}",
+      "{amount:25} {unit_from:Tenge} converted into {unit_to:Dinar}",
+      "convert {amount:1 000} {unit_from:Indian Rupee} into {unit_to:Yens}",
+      "convert {unit_from:$}{amount:200}",
+      "{unit_from:USD} into {unit_to:JPY}",
+      "what's the exchange rate for {unit_from:Canadian dollars} to {unit_to:US dollars}",
+      "{unit_from:$}{amount:12.34} into {unit_to:Yen}",
+      "{amount:100} {unit_from:Euro} into {unit_to:US Dollars}"
+    ],
+    "prompts": {
+      "unit_from": [
+        "What **currency** are you converting from?"
+      ],
+      "unit_to": [
+        "What **currency** are you converting to?"
+      ]
+    },
+    "responses": []
+  },
+  "command:convert:digital-storage": {
+    "userSays": [
+      "{unit_from:gibibits} to {unit_to:gigabytes}",
+      "convert {amount:1} {unit_from:bit} into {unit_to:bytes}",
+      "what is {amount:100} {unit_from:bytes} in {unit_to:kibibytes}",
+      "convert {unit_from:bits} into {unit_to:kilobits}",
+      "{amount:330,000} {unit_from:bytes} equals how many {unit_to:gigabytes}",
+      "{unit_from:bits} into {unit_to:megabits}"
+    ],
+    "prompts": {
+      "unit_from": [
+        "What's the unit of **digital storage** you are trying to convert from?"
+      ],
+      "unit_to": [
+        "What's the unit of **digital storage** you are trying to convert to?"
+      ]
+    },
+    "responses": []
+  },
+  "command:convert:frequency": {
+    "userSays": [
+      "convert {unit_from:millihertz} to {unit_to:terahertz}",
+      "how many {unit_to:hertz} in {amount:3} {unit_from:petahertz}",
+      "how many {unit_to:hertz} would be in a {unit_from:gigahertz}",
+      "how many {unit_to:hertz} are in {unit_from:gigahertz}",
+      "{amount:1} {unit_from:megahertz} to {unit_to:hertz}"
+    ],
+    "prompts": {
+      "unit_from": [
+        "What's the **frequency** measurement you are trying to convert from?"
+      ],
+      "unit_to": [
+        "What's the **frequency** measurement you are trying to convert to?"
+      ]
+    },
+    "responses": []
+  },
+  "command:convert:length": {
+    "userSays": [
+      "{amount:1} {unit_from:inch} to {unit_to:mm}",
+      "can you convert {unit_from:miles} in {unit_to:kilometres}",
+      "what's {amount:3} {unit_from:meters} in {unit_to:kilometers}",
+      "{amount:5} {unit_from:feet} is how many {unit_to:centimeters}",
+      "how many {unit_to:feet} in a {unit_from:mile}",
+      "convert {unit_from:kilometers} into {unit_to:miles}",
+      "how many {unit_to:inches} are in a {unit_from:square foot}",
+      "what's {amount:150} {unit_from:miles} in {unit_to:kilometers}",
+      "how many {unit_to:inches} are there in {amount:six} {unit_from:feet}",
+      "how many {unit_from:centimeters} per {unit_to:inch}",
+      "can you convert {amount:2} {unit_from:miles} to {unit_to:kilometers}",
+      "how many {unit_to:inches} in a {unit_from:mile}",
+      "{unit_from:inches} to {unit_to:light years}",
+      "how many {unit_to:inches} are there in {amount:10} {unit_from:feet}",
+      "{amount:7} {unit_from:light years} to {unit_to:yards}",
+      "how many {unit_to:feet} in a {unit_from:kilometer}",
+      "convert {amount:100} {unit_from:kilometers} to {unit_to:miles}",
+      "how many {unit_to:feet} are in {amount:one} {unit_from:mile}",
+      "convert {amount:500} {unit_from:kilometers} to {unit_to:miles}",
+      "convert {amount:4} {unit_from:kilometers} into {unit_to:miles}",
+      "what is {amount:830736} {unit_from:miles} in {unit_to:centimeters}",
+      "what are {amount:2} {unit_from:feet} in {unit_to:miles}",
+      "how many {unit_to:feet} are in a {unit_from:kilometer}"
+    ],
+    "prompts": {
+      "unit_to": [
+        "What's the **length** measurement you are trying to convert to?"
+      ],
+      "unit_from": [
+        "What's the **length** measurement you are trying to convert from?"
+      ]
+    },
+    "responses": []
+  },
+  "command:convert:temperature": {
+    "userSays": [
+      "change from {unit_from:Fahrenheit} to {unit_to:Kelvin}",
+      "convert {amount:26} {unit_from:degrees Celsius} to {unit_to:Fahrenheit}"
+    ],
+    "prompts": {
+      "unit_from": [
+        "What's the unit of **temperature** you are trying to convert from?"
+      ],
+      "unit_to": [
+        "What's the unit of **temperature** you are trying to convert to?"
+      ]
+    },
+    "responses": []
+  },
+  "command:convert:time": {
+    "userSays": [
+      "how many {unit_to:minutes} are in a {unit_from:year}",
+      "convert {amount:23} {unit_from:years} to {unit_to:seconds}",
+      "how many {unit_to:hours} in a {unit_from:day}",
+      "what is {amount:5} {unit_from:fortnights} in {unit_to:days}",
+      "how many {unit_to:hours} in {amount:1} {unit_from:week}",
+      "convert {amount:300} {unit_from:minutes} into {unit_to:hours}",
+      "{amount:23} {unit_from:ps} to {unit_to:ns}"
+    ],
+    "prompts": {
+      "unit_from": [
+        "What's the unit of **time** measurement you are trying to convert from?"
+      ],
+      "unit_to": [
+        "What's the unit of **time** measurement you are trying to convert to?"
+      ]
+    },
+    "responses": []
+  },
+  "command:convert:volume": {
+    "userSays": [
+      "{unit_from:cups} to {unit_to:Fluid Ounce}",
+      "how many {unit_to:liters} of water are in {amount:1} {unit_from:gallon} of water",
+      "how many {unit_to:ounces} in {amount:3} {unit_from:gallons}",
+      "{unit_from:litre} into {unit_to:Cubic Foot}",
+      "{amount:1} {unit_from:litre} how much in {unit_to:ml}",
+      "convert {unit_from:tablespoons} to {unit_to:teaspoons}",
+      "how many {unit_to:ounces} are in a {unit_from:cup}"
+    ],
+    "prompts": {
+      "unit_to": [
+        "What's the **volume** measurement you are trying to convert to?"
+      ],
+      "unit_from": [
+        "What's the **volume** measurement you are trying to convert from?"
+      ]
+    },
+    "responses": []
+  },
+  "command:convert:weight": {
+    "userSays": [
+      "convert {amount:23} {unit_from:kilograms} to {unit_to:pounds}",
+      "convert {amount:10060} {unit_from:kilograms} to {unit_to:pounds}",
+      "how much is {amount:90} {unit_from:kilograms} in {unit_to:pounds}",
+      "how many {unit_to:pounds} there are in {amount:23} {unit_from:kilograms}",
+      "{amount:20} {unit_from:kg} to {unit_to:pounds}",
+      "what is {amount:400000} {unit_from:pounds} in {unit_to:tons}",
+      "{amount:1} {unit_from:oz} in {unit_to:gram}",
+      "how many {unit_to:kilograms} are in a {unit_from:pound}",
+      "{unit_from:stones} to {unit_to:short tons}",
+      "{amount:10} {unit_from:kilograms} equals how many {unit_to:pounds}",
+      "convert {amount:176} {unit_from:pounds} to {unit_to:kilograms}",
+      "change {amount:50} {unit_from:kg} into {unit_to:pounds}",
+      "how many {unit_to:pounds} is {amount:79} {unit_from:kilograms}",
+      "{amount:16} {unit_from:kilograms} into {unit_to:pounds}",
+      "how many {unit_to:pounds} is {amount:16} {unit_from:kilograms}",
+      "{unit_from:kilograms} into {unit_to:pounds}",
+      "{unit_from:lbs} in {unit_to:kilos}",
+      "convert {amount:4} {unit_from:kilograms} to {unit_to:pounds}",
+      "{amount:100,144} {unit_from:kilograms} to {unit_to:pounds}"
+    ],
+    "prompts": {
+      "unit_from": [
+        "What's the unit of **weight** measurement you are trying to convert to?"
+      ],
+      "unit_to": [
+        "What is the unit of **weight** measurement you are converting to?"
+      ]
+    },
+    "responses": []
+  },
+  "command:date:between": {
+    "userSays": [
+      "tell me the number of {unit:weeks} between {date1:today} and {date2:January 1st}",
+      "number of {unit:seconds} between {date1:today} and {date2:April 1st}",
+      "how many {unit:days} are between {date1:November 13} and {date2:July 22}",
+      "compute the number of {unit:seconds} between {date1:today} and {date2:March 7 2017}",
+      "count the number of {unit:hours} between {date1:June 5} and {date2:June 14}",
+      "how many {unit:months} are there between {date1:January 2013} and {date2:August 2017}",
+      "calculate the number of {unit:minutes} between {date1:today} and {date2:Wednesday}",
+      "what is the number of {unit:years} between {date1:2017} and {date2:2048}",
+      "evaluate how many {unit:days} are between {date1:today} and {date2:February 14 2018}",
+      "I need to know the number of {unit:days} between {date1:today} and {date2:next Friday}"
+    ],
+    "prompts": {
+      "date1": [
+        "What would be the first date?"
+      ],
+      "date2": [
+        "What would be the second date?"
+      ],
+      "unit": [
+        "What do you want the measurement to be?"
+      ]
+    },
+    "responses": []
+  },
+  "command:date:check": {
+    "userSays": [
+      "tell me is it {date:September 8} in {location:Munich}",
+      "is today the {date:28th}",
+      "is it the {date:21st of February}",
+      "I'd like to know if it's {date:January 2018} now",
+      "are we in {date:March 2017}",
+      "check if it's {date:Monday} in {location:Luxembourg}",
+      "is it {date:June 19th}"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "command:date:dayofweek": {
+    "userSays": [
+      "day of the week in {location:New York}",
+      "what day of the week is it in {location:Paris}",
+      "{date:today's} day of the week",
+      "what day of the week is it {date:today} in {location:London}",
+      "what day of the week is {date:today}",
+      "day of the week {date:today}"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "command:date:get": {
+    "userSays": [
+      "what is the date",
+      "current date",
+      "date {date:today}",
+      "what date is {date:today}",
+      "date now",
+      "{date:today's} date",
+      "what day is it",
+      "show me the date",
+      "{date:tomorrow's} date",
+      "can you tell me the date",
+      "what date is the {date:next Friday}",
+      "do you know what day it is",
+      "what will be the date {date:30 days from now}",
+      "what date is it on {date:Thursday}",
+      "tell me the date {date:19 weeks from today}",
+      "what is the day {date:after tomorrow}",
+      "what day was {date:yesterday}",
+      "what is the current date",
+      "the date",
+      "what date is {date:tomorrow}",
+      "what's the date {date:today}"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "command:date:holiday": {
+    "userSays": [
+      "{holiday:Columbus Day} {year:2018}",
+      "{holiday:Independence Day} {year:2013} date",
+      "when is {holiday:Valentine's Day}",
+      "whats {holiday:Christmas} in {year:2020}",
+      "when is {holiday:Thanksgiving} {year:this year}",
+      "what is the date of {holiday:Columbus day} in {year:2015}",
+      "when was {holiday:Christmas}",
+      "I wonder when is {holiday:Saint Patrick's day}",
+      "{holiday:Halloween} date",
+      "what is the date of {holiday:Labour Day} in {year:2018}"
+    ],
+    "prompts": {
+      "holiday": [
+        "What holiday are you referring to?"
+      ]
+    },
+    "responses": []
+  },
+  "command:date:holiday:between": {
+    "userSays": [
+      "how many {unit:minutes} are between {holiday1:saint patricks day} and {holiday2:Christmas}",
+      "check how many {unit:weeks} are there between {holiday1:Halloween} and {holiday2:New Year} in {year:1987}",
+      "count the {unit:days} between {holiday1:Columbus Day} and {holiday2:Christmas} in {year:2020}",
+      "how many {unit:weeks} between {holiday1:Independence Day} and {holiday2:Easter}",
+      "number of {unit:hours} between {holiday1:Columbus Day} and {holiday2:Veterans Day}",
+      "how many {unit:days} are there between {holiday1:Christmas} and {holiday2:New Year} in {year:2016}",
+      "how many {unit:weeks} between {holiday1:Christmas} and {holiday2:Easter} in {year:2013}",
+      "calculate the number of {unit:seconds} between {holiday1:Thanksgiving} and {holiday2:Halloween}",
+      "tell me how many {unit:months} are between {holiday1:Independence Day} and {holiday2:Valentine's Day}"
+    ],
+    "prompts": {
+      "holiday1": [
+        "What's the first holiday you want to compare?"
+      ],
+      "holiday2": [
+        "What's the second holiday you want to compare?"
+      ],
+      "unit": [
+        "Whats the **time** measurement you want to compare with?"
+      ]
+    },
+    "responses": []
+  },
+  "command:date:month:check": {
+    "userSays": [
+      "is it still {month:June}",
+      "{month:February} is coming isn't it",
+      "do you know if it's {month:March} now",
+      "could you tell if it's {month:May} now",
+      "are we in {month:February}",
+      "it's {month:December} right",
+      "is it {month:August} already",
+      "is it {month:May}",
+      "check if it's {month:April}",
+      "tell me if it's {month:July}"
+    ],
+    "prompts": {
+      "month": [
+        "What month are you trying to check?"
+      ]
+    },
+    "responses": []
+  },
+  "command:date:month:get": {
+    "userSays": [
+      "what month is it",
+      "could you tell me what month it is now",
+      "do you know the current month",
+      "what's the current month",
+      "tell me the current month",
+      "what month are we in",
+      "current month please",
+      "what month is it now",
+      "I'd like to know what month it is now"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "command:date:since": {
+    "userSays": [
+      "how do I know how many {unit:minutes} passed since the {date:year 2013}",
+      "calculate how many {unit:weeks} it's been since {date:last Friday}",
+      "how many {unit:months} have passed since {date:April 1st 2014}",
+      "how many {unit:days} have passed since {date:September 7}",
+      "count the number of {unit:months} it's been since {date:2015}",
+      "check how many {unit:seconds} it's been since {date:yesterday}",
+      "tell me how many {unit:hours} have passed since {date:June 11th}"
+    ],
+    "prompts": {
+      "date": [
+        "What date are you specifying?"
+      ],
+      "unit": [
+        "What **time** measurement are you converting to?"
+      ]
+    },
+    "responses": []
+  },
+  "command:date:until": {
+    "userSays": [
+      "check how many {unit:weeks} till {date:September 5th}",
+      "tell me how many {unit:weeks} we have before {date:April 11th}",
+      "how many {unit:days} until {date:Friday}",
+      "how long until {date:November 13}",
+      "how many {unit:hours} until {date:tomorrow}",
+      "how many {unit:days} left till the {date:end of the year}",
+      "count how many {unit:months} to {date:December 2020}",
+      "{unit:days} until {date:January 1st}",
+      "number of {unit:days} before the {date:end of the month}",
+      "how many {unit:weeks} are there until {date:next month}",
+      "calculate number of {unit:days} before {date:July 22}"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "command:date:year:check": {
+    "userSays": [
+      "is it {date-period:2015}",
+      "it's {date-period:2019} isn't it",
+      "tell me if it's the year {date-period:2018}",
+      "check if it's {date-period:2016}",
+      "are we in {date-period:2017}",
+      "now it's {date-period:1989} right"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "command:date:year:get": {
+    "userSays": [
+      "I want to know the current year",
+      "I wonder which year we are in",
+      "what year is it",
+      "what is the current year",
+      "tell me the current year",
+      "what year are we in now",
+      "current year",
+      "year now"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "command:date:year:leap": {
+    "userSays": [
+      "is this year a leap year",
+      "are we in a leap year",
+      "would {year:1997} be a leap year",
+      "is {year:2020} a leap year"
+    ],
+    "prompts": {
+      "year": [
+        "What year are you referencing?"
+      ]
+    },
+    "responses": []
+  },
+  "command:help": {
+    "userSays": [
+      "help me",
+      "please help me",
+      "i need help",
+      "help"
+    ],
+    "prompts": {},
+    "responses": [
+      "Who do you think I am? Some ordinary multi-purpose discord bot that DMs you all those random commands that you'll only use a quarter of?"
+    ]
+  },
+  "command:shards": {
+    "userSays": [
+      "give me the shards",
+      "give me the shard stats",
+      "shard stats",
+      "how are your shards doing"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "Here are a list of shard I am ran in:",
+        "Sure thing! Here are a list of shard I am ran in:",
+        "Ok! Here are a list of shard I am ran in:",
+        "Okay! Here are a list of shard I am ran in:",
+        "Alright! Here are a list of shard I am ran in:",
+        "Sure! Here are a list of shard I am ran in:"
+      ]
+    ]
+  },
+  "mixed-response:who-is": {
+    "userSays": [
+      "what do you think of {user:{discord-user: 1554 9084 7494 8976 64 }}",
+      "who is {user:{discord-user: 4295 4252 7704 6292 48 }}",
+      "whats this bot called {username:mee6}",
+      "what do you know about {user:{discord-user: 2409 7183 5330 6583 05 }}",
+      "what do you think of {username:KawaiiBot}",
+      "whats a {username:jagbot}",
+      "ever heard of {username:discord cards}",
+      "who is {username:alexflipnote}",
+      "what is {username:ayana}"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "ref:chicken-road": {
+    "userSays": [
+      "so why did the chicken cross the road",
+      "do you know why the chicken crosses the road",
+      "why the chicken crossed the road",
+      "when did the chicken cross the road",
+      "why did the chicken cross the road",
+      "can you tell me why the chicken crosses the road",
+      "but why did the chicken cross the road",
+      "why didn't the chicken cross the road",
+      "tell me why did the chicken cross the road"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "To complete another level of Angry Birds.",
+        "To migrate. Chickens migrate too right?"
+      ]
+    ]
+  },
+  "ref:discord": {
+    "userSays": [
+      "whats discord about",
+      "what is discord",
+      "whats discord"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "It's what you're using now.",
+        "Coolest chat platform ever.",
+        "Better than Twitch Messenger."
+      ]
+    ]
+  },
+  "request:emote": {
+    "userSays": [
+      "smack {user:Daniel}",
+      "give me a pout",
+      "give me a smug face",
+      "please pet {user:Julia}",
+      "kiss {user:MixedFruits}",
+      "hug {user:Max}"
+    ],
+    "prompts": {},
+    "responses": [
+      "I can't do that! Who do you think I am, Ayana?"
+    ]
+  },
+  "request:joke": {
+    "userSays": [
+      "tell me a funny joke",
+      "tell me some jokes",
+      "I want to hear a joke",
+      "joke please",
+      "do you joke well",
+      "tell me a silly joke",
+      "can you joke well",
+      "tell me a funny joke please",
+      "let's hear funny jokes",
+      "I want some jokes",
+      "can you tell me a joke please",
+      "tell a joke",
+      "let's joke",
+      "I want a funny joke",
+      "give me a joke",
+      "it would be nice to hear a joke right now",
+      "tell me a scary joke",
+      "do you have any jokes",
+      "tell me a joke",
+      "can you tell jokes",
+      "tell me a funny joke",
+      "tell me a joke please",
+      "tell me your funniest joke",
+      "I'm feeling glum make me laugh",
+      "tell me a nice joke",
+      "do you know any jokes",
+      "can you tell me another joke",
+      "jokes",
+      "some joke",
+      "random joke",
+      "joke",
+      "tell me the best joke ever",
+      "any good jokes",
+      "more jokes"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "Lightning doesn't mean to shock people, it just doesn't know how to conduct itself.",
+        "Knowledge is knowing a tomato is a fruit. Wisdom is not putting it in a fruit salad.",
+        "The only substitute for good manners is fast reflexes.",
+        "Reading whilst sunbathing makes you well red.",
+        "Evening news is where they begin with 'Good evening', and then proceed to tell you why it isn't.",
+        "A bus station is where a bus stops. A train station is where a train stops. On my desk, I have a work station.",
+        "Did you know that dolphins are so smart that within a few weeks of captivity, they can train people to stand on the very edge of the pool and throw them fish?",
+        "A bank is a place that will lend you money, if you can prove that you don't need it.",
+        "A clear conscience is usually the sign of a bad memory.",
+        "My first job was working in an orange juice factory, but I got canned because I couldn't concentrate.",
+        "Worrying works! 90% of the things I worry about never happen.",
+        "A bus is a vehicle that runs twice as fast when you are after it as when you are in it.",
+        "Always remember that you are unique; just like everyone else.",
+        "Can't stand it when a sentence doesn't end the way you think it OCTOPUS!",
+        "I was going to donate blood until the lady got all personal and started asking \"Who's blood is this?\" and \"How did you get it?\"",
+        "If swimming is so good for your figure, how do you explain whales?",
+        "I don't have a big ego. I'm way too cool for that.",
+        "Why couldn't the bicycle stand? Because it was two tired."
+      ]
+    ]
+  },
+  "request:joke:bad": {
+    "userSays": [
+      "i didn't like this joke",
+      "I hate your jokes",
+      "please improve your sense of humor",
+      "not funny at all",
+      "no",
+      "your jokes are awful",
+      "stop your stupid jokes",
+      "your jokes don't make me laugh",
+      "you've lost your sense of humor",
+      "not funny",
+      "it was a stupid joke",
+      "stop",
+      "it's a bad joke",
+      "your jokes are not funny",
+      "that is not funny",
+      "stop it",
+      "this is not funny",
+      "you have no sense of humor",
+      "I didn't like that joke",
+      "I wish you had a sense of humor"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "Yeah I know, these jokes were provided by Dialogflow so a lot of them are sad.",
+        "Blame Dialogflow."
+      ]
+    ]
+  },
+  "request:joke:good": {
+    "userSays": [
+      "nice one",
+      "haha you have a good sense of humor",
+      "ahha",
+      "hilarious",
+      "I loved that joke",
+      "I like your sense of humor",
+      "you're funny",
+      "rofl",
+      "I love your jokes",
+      "your jokes are always funny",
+      "hahaha",
+      "lol",
+      "nice joke I like it",
+      "cool",
+      "good joke",
+      "I do appreciate your sense of humor",
+      "so funny",
+      "funny",
+      "you are so witty",
+      "nice joke",
+      "ahahah lol",
+      "i like this one",
+      "it's the funniest joke ever",
+      "great joke",
+      "your jokes are good",
+      "i do like your jokes",
+      "you have such a good sense of humor",
+      "you are so funny"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "request:joke:more": {
+    "userSays": [
+      "next",
+      "do you have more",
+      "another one",
+      "sure",
+      "more fun",
+      "more",
+      "what else",
+      "ready for more",
+      "yes",
+      "yes sure",
+      "why not",
+      "another joke",
+      "tell me another",
+      "tell me more",
+      "I'm ready for more",
+      "are there more",
+      "more jokes",
+      "ready",
+      "ok",
+      "go for it",
+      "anything else"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "Originality is the art of concealing your sources.",
+        "Despite the cost of living, have you noticed how popular it remains?",
+        "My GPS keeps saying, \"Go back 20 years and enter law school.\"",
+        "If I eat healthy today then I can have one piece of candy as a reward. If I eat unhealthy, I can have the whole bag.",
+        "My mother was so overprotective we were only allowed to play rock, paper.",
+        "I don't know what 'gluten free' means but I'm adding it to my resume.",
+        "Don't worry. Your secret is safe with me. Everyone I told swore they wouldn't tell anyone else.",
+        "Your call is very important to us. Please enjoy this 40 minute flute solo.",
+        "The barman says \"we don't serve time travellers here\". A time traveller walks into a bar.",
+        "Drinking and drugs will not solve all your problems. That's what chocolate and ice cream are for.",
+        "If you notice a person is deceiving you, they must not be deceiving you very well.",
+        "My boss has told so many unfunny jokes today, I've forgotten what my real laugh sounds like.",
+        "A cat jumps into a cab and yells, “Follow that red dot!”",
+        "The trouble with real life is that there is no danger music.",
+        "Unless you can be Batman, always be yourself.",
+        "You know it's time to reconsider your diet when you buy a hulahoop and it fits.",
+        "In order to catch a bus, first one must think like a bus."
+      ]
+    ]
+  },
+  "request:meaning-of-life": {
+    "userSays": [
+      "so what is the meaning of life",
+      "what's the meaning of life the universe and everything",
+      "what's the meaning of life",
+      "can you tell me the meaning of life",
+      "show me the meaning of life",
+      "do you know the meaning of life",
+      "tell me the meaning of life",
+      "the meaning of life"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "\"To spend it for something that will outlast it.\" John Cook (2007). The Book of Positive Quotations.",
+        "42. Just 42."
+      ]
+    ]
+  },
+  "request:woodchuck": {
+    "userSays": [
+      "do you know how much wood would a woodchuck chuck",
+      "how much chuck could a woodchuck chuck if a woodchuck could chuck wood",
+      "can you say how many wood could a woodchuck chuck",
+      "how much wood does woodchuck chuck",
+      "tell me how many times would a woodchuck chuck wood if a woodchuck would chuck wood",
+      "find out how much wood would a woodchuck chuck",
+      "how many chucks would a woodchuck chuck if a woodchuck could chuck wood",
+      "please tell how much could a woodchuck chuck if a woodchuck could chuck wood",
+      "how many chucks would a woodchuck chuck"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "As much wood as a woodchuck could if a woodchuck could chuck wood!",
+        "Exactly 119 pieces and 7 sticks. I know some woodchucks in the neighborhood.",
+        "This was answered in a scientific journal Annals of Improbable Research in 1995, in a paper entitled \"The Ability of Woodchucks to Chuck Cellulose Fibers\". I won't spoil it for you. You're welcome!"
+      ]
+    ]
+  },
+  "self:cleverbot": {
+    "userSays": [
+      "are you a cleverbot",
+      "is this a cleverbot",
+      "am i talking to a cleverbot"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "No. If i was, I wouldn't have said this.",
+        "No.",
+        "Maybe",
+        ":thinking:"
+      ]
+    ]
+  },
+  "self:created": {
+    "userSays": [
+      "when is your birthday",
+      "when were you created",
+      "what time were you born",
+      "when were you made",
+      "when were you born"
+    ],
+    "prompts": {},
+    "responses": [
+      "Well, I was made in the 20th of February in 2018."
+    ]
+  },
+  "self:creator": {
+    "userSays": [
+      "who made you",
+      "who coded you",
+      "who created you",
+      "who wrote your code"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "Snazzah, some guy with way too much time on his hands",
+        "Snazzah",
+        "A Wild Cat (it's really snazzah)"
+      ]
+    ]
+  },
+  "self:favorite-food": {
+    "userSays": [
+      "what the best food out there",
+      "what would you like to eat the most",
+      "favorite food",
+      "whats your favorite food"
+    ],
+    "prompts": {},
+    "responses": [
+      "I think RAM is the best food out there."
+    ]
+  },
+  "self:favorite-song": {
+    "userSays": [
+      "whats your favorite genre of music",
+      "favorite music genre",
+      "whats your taste in music",
+      "what songs do you recommend",
+      "whats your favorite song",
+      "favorite song",
+      "do you like music"
+    ],
+    "prompts": {},
+    "responses": [
+      "I think chiptune is really great music."
+    ]
+  },
+  "self:gender": {
+    "userSays": [
+      "what do you identify as",
+      "are you male or female",
+      "are you a boy or a girl",
+      "what gender are you"
+    ],
+    "prompts": {},
+    "responses": [
+      "Robotical?"
+    ]
+  },
+  "self:library": {
+    "userSays": [
+      "what discord lib are you running on",
+      "what discord library are you ran on",
+      "what discord library are you running on",
+      "what discord library are on",
+      "what lib are you running on"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "Discord.JS",
+        "discord.js",
+        "ANYTHING but Eris. :^)"
+      ]
+    ]
+  },
+  "self:location": {
+    "userSays": [
+      "what is your location",
+      "where is your house",
+      "what area do you reside in",
+      "where do you live",
+      "where are you located",
+      "where are you"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "I live in the cervos.",
+        "I live in a cozy virtual server."
+      ]
+    ]
+  },
+  "self:music": {
+    "userSays": [
+      "queue music",
+      "join voice channel",
+      "give me some music",
+      "play me some music",
+      "play music"
+    ],
+    "prompts": {},
+    "responses": [
+      [
+        "I'm not a music bot! If you want that, you should check out Ayana. Best music bot in my opinion.",
+        "Get Ayana to do it."
+      ]
+    ]
+  },
+  "self:name": {
+    "userSays": [
+      "what do you want to be called",
+      "what are you normally called",
+      "what is your name",
+      "what;s your name"
+    ],
+    "prompts": {},
+    "responses": [
+      "Argoto!"
+    ]
+  },
+  "self:name:why": {
+    "userSays": [
+      "why do you have the name argoto",
+      "why is your name argoto",
+      "whats the reason for your name",
+      "why the name argoto"
+    ],
+    "prompts": {},
+    "responses": [
+      "Maybe because it sounds close to Arigato."
+    ]
+  },
+  "self:smart": {
+    "userSays": [
+      "do you think you are an intelligent being",
+      "whats your iq",
+      "how smart are you",
+      "are you smart"
+    ],
+    "prompts": {},
+    "responses": [
+      "How smart can I be?"
+    ]
+  },
+  "self:version": {
+    "userSays": [
+      "do I have the latest version of your application",
+      "is it the latest version",
+      "what's the current version of this app",
+      "current version",
+      "what version do I use",
+      "what's the current version of your app",
+      "version",
+      "show me the version of this app",
+      "what version am I using"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "sys:fallback": {
+    "userSays": [],
+    "prompts": {},
+    "responses": [
+      [
+        "<:ArgotoThink:418240536718213120> I missed what you put. **It's best to be clear in your message for better responses.**",
+        "<:ArgotoThink:418240536718213120> Sorry, I didn't get that. **It's best to be clear in your message for better responses.**",
+        "<:ArgotoThink:418240536718213120> Sorry, what was that?** It's best to be clear in your message for better responses.**",
+        "<:ArgotoThink:418240536718213120> One more time? **It's best to be clear in your message for better responses.**",
+        "<:ArgotoThink:418240536718213120> What was that?** It's best to be clear in your message for better responses.**",
+        "<:ArgotoThink:418240536718213120> Say that again?** It's best to be clear in your message for better responses.**",
+        "<:ArgotoThink:418240536718213120> I didn't get that.** It's best to be clear in your message for better responses.**",
+        "<:ArgotoThink:418240536718213120> I missed that. **It's best to be clear in your message for better responses.**"
+      ]
+    ]
+  },
+  "what:guild:count": {
+    "userSays": [
+      "how large is this guild",
+      "how many people are in this server",
+      "how many people are in this guild",
+      "how large is this server"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "what:guild:created-at": {
+    "userSays": [
+      "when was this server made",
+      "what date was this server built",
+      "when was this guild founded",
+      "what date was this discord built",
+      "when did this server start"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "what:guild:discord-id": {
+    "userSays": [
+      "discord number for this guild",
+      "whats the discord id this server",
+      "discord id for this guild",
+      "discord identifier for this server"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "what:guild:joined-at": {
+    "userSays": [
+      "when did i join this discord",
+      "when did i enter this server",
+      "when did i join this server",
+      "what date did i join this guild in"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "what:guild:owner": {
+    "userSays": [
+      "who made this server",
+      "who is the owner of the server",
+      "who is the owner of the guild",
+      "who made this guild"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "what:me:created-at": {
+    "userSays": [
+      "at what day did i create my discord account",
+      "when did i join discord",
+      "what date did I join discord",
+      "when did i create account",
+      "when was i made"
+    ],
+    "prompts": {},
+    "responses": []
+  },
+  "what:me:discord-id": {
+    "userSays": [
+      "whats my discord id",
+      "whats my discord number",
+      "what is my discord id"
+    ],
+    "prompts": {},
+    "responses": []
   }
 }
