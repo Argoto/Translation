@@ -1,1 +1,12 @@
-{}
+{
+    "action:feedback.userSays[2]": "realimentación",
+    "action:eval:yes.userSays[8]": "sí",
+    "action:eval:yes.userSays[6]": "por supuesto",
+    "action:remind:add.userSays[202]": "recordar",
+    "action:remind:add.userSays[17]": "recuerdame",
+    "action:remind:add.userSays[13]": "recuérdame más tarde",
+    "action:ban.userSays[17]": "prohibir {username:duke}",
+    "request:joke:more.userSays[8]": "sí",
+    "action:eval:yes.userSays[2]": "de acuerdo",
+    "request:joke:more.userSays[18]": "de acuerdo"
+}
